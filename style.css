@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+html{
+    font-size: 62.5;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    width: 100vw;
+    height:20vh;
+    border: 3px solid #ff0af4;
+}
+main{
+    /* border: 3px solid #ff0af4; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    }
+figure{
+    margin: 5vh 0;
+    
+    border: #ff0af4 solid 3px;
+    border-radius: 20px;
+    width: 85vw;
+    height: 60vh;
+}
+img{
+    border-radius: 10px;
+    margin: 2vh 0;
+    width:85%;
+    height: auto;
+}
+figcaption{
+    font-size: 1.2rem;
+}
+span{
+    color: #ff0af4;
+}
+footer{
+    width: 100vw;
+    height:20vh;
+    border: 3px solid #ff0af4;
+}
