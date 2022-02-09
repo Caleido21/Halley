@@ -9,6 +9,9 @@ html{
 }
 body{
     background-color: black;
+    background-image:url("img/hall.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
     text-shadow: white 0 0 20px;
 }
@@ -19,7 +22,8 @@ header{
     box-shadow: #ff0af4 0 0 10px;
 }
 h1{
-
+    display: inline-block;
+    width: auto;
 }
 main{
     /* border: 3px solid #ff0af4; */
@@ -34,7 +38,7 @@ figure{
     box-shadow: #ff0af4 0 0 10px;
     border-radius: 20px;
     width: 85vw;
-    height: 60vh;
+    height: 500px;
 }
 img{
     border-radius: 10px;
@@ -42,6 +46,11 @@ img{
     width:85%;
     height: auto;
     box-shadow: #ff0af4 0 0 30px;
+}
+#halley{
+    border: none;
+    box-shadow: none;
+    width: 10vw;
 }
 figcaption{
     font-size: 1.2rem;
