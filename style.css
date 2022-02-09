@@ -10,11 +10,16 @@ html{
 body{
     background-color: black;
     color: white;
+    text-shadow: white 0 0 20px;
 }
 header{
     width: 100vw;
     height:20vh;
     border: 3px solid #ff0af4;
+    box-shadow: #ff0af4 0 0 10px;
+}
+h1{
+
 }
 main{
     /* border: 3px solid #ff0af4; */
@@ -25,8 +30,8 @@ main{
     }
 figure{
     margin: 5vh 0;
-    
     border: #ff0af4 solid 3px;
+    box-shadow: #ff0af4 0 0 10px;
     border-radius: 20px;
     width: 85vw;
     height: 60vh;
@@ -36,15 +41,19 @@ img{
     margin: 2vh 0;
     width:85%;
     height: auto;
+    box-shadow: #ff0af4 0 0 30px;
 }
 figcaption{
     font-size: 1.2rem;
 }
 span{
     color: #ff0af4;
+    text-shadow: #ff0af4 0 0 10px;
+
 }
 footer{
     width: 100vw;
     height:20vh;
     border: 3px solid #ff0af4;
+    box-shadow: #ff0af4 0 0 10px;
 }
