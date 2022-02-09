@@ -27,6 +27,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     width: auto;
+    align-items:baseline;
     }
 figure{
     margin: 5vh 0;
@@ -34,7 +35,8 @@ figure{
     box-shadow: #ff0af4 0 0 10px;
     border-radius: 20px;
     width: 85vw;
-    height: 60vh;
+    padding: 3%;
+    /*height: 500px;*/
 }
 img{
     border-radius: 10px;
